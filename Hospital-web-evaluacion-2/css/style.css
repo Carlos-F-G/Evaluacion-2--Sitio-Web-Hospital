@@ -1,0 +1,404 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0 0 1rem 0;
+  }
+  p {
+    margin: 0 0 1rem 0;
+  }
+}
+header {
+  background-color: #0062f5;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  nav ul li {
+    margin-bottom: 10px;
+  }
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+nav ul li button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-contenido {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-enlaces {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-enlaces li {
+  display: inline;
+}
+
+.footer-enlaces li a {
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.footer-enlaces li a:hover {
+  color: #ccc;
+}
+
+.redes-sociales {
+  margin-top: 20px;
+}
+
+.redes-sociales a {
+  margin: 0 15px;
+  font-size: 2em;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+  color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 20px 10px;
+  }
+  .footer-enlaces {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer-enlaces li {
+    margin-bottom: 10px;
+  }
+  .redes-sociales img {
+    width: 25px;
+  }
+}
+.bienvenida {
+  padding: 100px 0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-image: url("/img/banner_hospital.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .bienvenida {
+    padding: 50px 10px;
+    background-position: top;
+  }
+  .bienvenida h1 {
+    font-size: 1.5rem;
+  }
+  .bienvenida p {
+    font-size: 1rem;
+  }
+}
+.servicios {
+  padding: 5vw;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.servicios h2 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contenedor-servicios {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.servicio {
+  flex: 1 1 28%;
+  display: inline-block;
+  width: 28%;
+  margin: 2%;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.servicio img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.servicio h3 {
+  font-size: 1, 5em;
+  color: #3e7aeb;
+  margin-bottom: 1rem;
+}
+
+.servicio p {
+  font-size: 1, 8rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor-servicios {
+    flex-direction: column;
+    align-items: center;
+  }
+  .servicio {
+    flex: 1 1 100%;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+.testimonios {
+  padding: 50px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.testimonios h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.testimonio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.testimonio img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonio blockquote {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #555;
+  flex: 1;
+  text-align: left;
+}
+
+.testimonio p {
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+  margin-left: 20px;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonio {
+    flex-direction: column;
+    text-align: center;
+  }
+  .testimonio img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .testimonio blockquote {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .testimonio p {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+.equipo {
+  padding: 50px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.equipo h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contenedor-doctores {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.doctor {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  min-width: 250px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.doctor img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.doctor h3 {
+  font-size: 1.5em;
+  color: #3e7aeb;
+  margin-bottom: 10px;
+}
+
+.doctor p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor-doctores {
+    flex-direction: column;
+    align-items: center;
+  }
+  .doctor {
+    width: 100%;
+  }
+}
+.contacto {
+  padding: 50px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+form label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.ubicacion {
+  padding: 50px;
+  text-align: center;
+}
+
+.ubicacion img {
+  width: 100%;
+  max-width: 600px;
+}
+

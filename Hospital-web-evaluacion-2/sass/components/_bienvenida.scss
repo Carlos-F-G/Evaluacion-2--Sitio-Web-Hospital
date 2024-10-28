@@ -1,0 +1,25 @@
+.bienvenida {
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url("/img/banner_hospital.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .bienvenida {
+        padding: 50px 10px; 
+        background-position: top; 
+    }
+
+    .bienvenida h1 {
+        font-size: 1.5rem; 
+    }
+
+    .bienvenida p {
+        font-size: 1rem; 
+    }
+}
