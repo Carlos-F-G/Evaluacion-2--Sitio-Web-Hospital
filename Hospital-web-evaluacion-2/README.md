@@ -33,16 +33,14 @@ Se integra media queries con puntos de ruptura en tres tamaños principales
 Se aplicó el modelo de cajas para manejar espaciados, márgenes, bordes y rellenos.
 
 
-Estructura de Archivos SASS
-
-Estrcutura de los archivos SASS
+#Estrcutura de los archivos SASS
 
 base/: Contiene los estilos globales
 components/: Estilos de componentes como bienvenida, equipo, servicios, testimonios.
 layout/: footer, header, nav.
 pages/: contacto
 
-¿Cómo ver el archivo?
+#¿Cómo ver el archivo?
 -Descarga el zip, luego descomprime
 -Dentro de la carpeta, abrir el archivo index.HTML en el navegador
 -fin
