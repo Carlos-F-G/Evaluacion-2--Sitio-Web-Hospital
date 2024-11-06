@@ -35,10 +35,10 @@ Los estilo se organizan usando patron 7-1 creando los archivos parciales:
 
 Estrcutura de los archivos SASS
 
-- base/: Contiene los estilos globales
-- components/: Estilos de componentes como bienvenida, equipo, servicios, testimonios.
-- layout/: footer, header, nav.
-- pages/: contacto
+- base: Contiene los estilos globales
+- components: Estilos de componentes como bienvenida, equipo, servicios, testimonios.
+- layout: footer, header, nav.
+- pages: contacto
 
 3- ¿Cómo ver el archivo?:
 
