@@ -40,10 +40,11 @@ components/: Estilos de componentes como bienvenida, equipo, servicios, testimon
 layout/: footer, header, nav.
 pages/: contacto
 
-3- ¿Cómo ver el archivo?
--Descarga el zip, luego descomprime
--Dentro de la carpeta, abrir el archivo index.HTML en el navegador
--fin
+3- ¿Cómo ver el archivo?:
+
+- Descarga el zip, luego descomprime
+- Dentro de la carpeta, abrir el archivo index.HTML en el navegador
+- fin
 
 
 
